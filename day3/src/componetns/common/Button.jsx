@@ -1,9 +1,9 @@
 import React from "react";
 
-const Button = () => {
+const Button = ({butonkoname,color}) => {
   return (
-    <a href="" className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow">
-      click
+    <a href="" style={{color:color}} >
+      {butonkoname}
     </a>
   );
 };

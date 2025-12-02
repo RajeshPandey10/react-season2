@@ -1,33 +1,31 @@
-
+import { Link } from "react-router-dom";
+import { navMenu } from "../../constants/navMenu";
+import Button from "./Button";
 
 const Navbar = () => {
+
   return (
     <>
- <nav aria-label="Global" className="hidden md:block">
-          <ul className="flex items-center gap-6 text-sm">
+      <nav aria-label="Global" className="hidden md:block">
+        <ul className="flex items-center gap-6 text-sm">
+          {navMenu.map((nav) => (
             <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+              <Link
+                className={`nav ${nav.isButton?(nav.label=="Register"?"register":"login"):""} `}
+                to={nav.path}
+              >
+                
+                {nav.label}
+              </Link>
             </li>
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
-            </li>
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
-            </li>
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
-            </li>
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
-            </li>
-            <li>
-              <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
-            </li>
-          </ul>
-        </nav>
-
+          ))}
+          <Button butonkoname="Login" color="red"/>
+           <Button butonkoname="Register" color="green"/>
+            <Button butonkoname="call us" color="blue"/>
+        </ul>
+      </nav>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
