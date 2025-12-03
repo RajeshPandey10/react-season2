@@ -1,10 +1,10 @@
-import React from "react";
-
-const Button = ({butonkoname,color}) => {
+const Button = ({ name, className }) => {
   return (
-    <a href="" style={{color:color}} >
-      {butonkoname}
-    </a>
+    <button
+      className={`border hover:bg-green-700 px-10 py-2 cursor-pointer transition-all  rounded-lg ${className} `}
+    >
+      <a href="">{name}</a>
+    </button>
   );
 };
 

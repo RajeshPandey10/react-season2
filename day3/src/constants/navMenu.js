@@ -5,8 +5,7 @@ export const navMenu = [
     {label:"Projects" ,path:"/projects"},
     {label:"Blog" ,path:"/blog"},
 
-    {label:"Login",path:"/login",isButton:true},
-    {label:"Register",path:"/register",isButton:true},
+    
 
     
 

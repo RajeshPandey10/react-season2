@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./componetns/common/Header";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Footer from "./componetns/common/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );

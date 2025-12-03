@@ -1,15 +1,16 @@
 import React from 'react'
+import Button from '../componetns/common/Button'
 
 const About = () => {
   return (
- <section id="about" className="py-20 md:px-20 lg:px-20 bg-[#121212]">
+ <section id="about" className="py-20 md:px-20 lg:px-20 bg-[#ffff]">
   <div className="container mx-auto px-4">
     <div className="mb-12">
       {/* Heading */}
       <h2 className="text-purple-400 text-lg mb-2" data-aos="fade-down">
         About Us
       </h2>
-      <h3 className="mb-4 text-3xl font-bold text-white section-title" data-aos="fade-down">
+      <h3 className="mb-4 text-3xl font-bold text-black section-title" data-aos="fade-down">
         Capturing Moments That Last Forever
       </h3>
       <p className="mb-8 max-w-3xl text-gray-400" data-aos="fade-down">
@@ -39,12 +40,8 @@ const About = () => {
     </div>
     {/* Buttons Section */}
     <div className="flex flex-col sm:flex-row items-center gap-4 mt-8" data-aos="fade-up">
-      <a href="#team" className="cursor-pointer rounded-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-8">
-        Meet Our Team
-      </a>
-      <a href="#contact" className="cursor-pointer rounded-full border-2 py-3 px-8 border-white text-white hover:bg-white hover:text-purple-900 transition duration-300 ease-in-out">
-        Contact Us
-      </a>
+      <Button name="book a demo" className=" hover:bg-amber-300 "/>
+     <Button name="contact us"/>
     </div>
   </div>
 </section>

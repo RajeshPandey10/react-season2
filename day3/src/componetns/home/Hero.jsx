@@ -1,3 +1,5 @@
+import Button from "../common/Button";
+
 const Hero = () => {
   return (
     <>
@@ -30,12 +32,7 @@ const Hero = () => {
           underwriting to claims processing, our intelligent system streamlines
           and enhances every aspect of your insurance operations.
         </h2>
-        <a
-          className="bg-orange-600 dark:bg-gray-800 rounded-xl text-white dark:text-gray-300 font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-orange-500 dark:hover:bg-gray-600 transition"
-          href
-        >
-          Get started
-        </a>
+       <Button name="Get Started" className="bg-sky-800"/>
       </div>
     </>
   );
