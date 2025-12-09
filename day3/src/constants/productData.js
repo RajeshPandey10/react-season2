@@ -1,13 +1,16 @@
+import apple from "../assets/images/panda.jpg"
+
 export const productData = [
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"},
-{name:"IPhone",brand:"Apple",price:1000,img:"https://www.dxomark.com/wp-content/uploads/medias/post-125834/Apple-iPhone-14_FINAL_featured-image-packshot-review.jpg"}
+{name:"IPhone15",brand:"Apple",price:1000,img:apple},
+{name:"IPhone16",brand:"Apple",price:1200,img:apple},
+{name:"IPhone17",brand:"Apple",price:1500,img:apple},
+{name:"S20",brand:"samsung",price:1700,img:apple},
+{name:"S20",brand:"samsung",price:1700,img:apple},
+{name:"S20",brand:"samsung",price:1700,img:apple},
+{name:"S20",brand:"samsung",price:1700,img:apple},
+{name:"S20",brand:"samsung",price:1700,img:apple},
 
 
 ]
+
+

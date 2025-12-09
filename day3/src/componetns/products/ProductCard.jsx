@@ -1,18 +1,21 @@
-import React from "react";
-import Button from "../common/Button";
+import React from 'react'
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({product}) => {
   return (
     <>
-      <div className="border px-6 w-70 my-2  ">
-        <img src={product.img} alt="prodct img" className="h-60 w-80" />
-        <h2>{product.name}</h2>
-        <p>{product.brand}</p>
-        <p>{product.price}</p>
-             <Button text="buy now" color="text-orange-400 bg-white"/>
-      </div>
-    </>
-  );
-};
+    <div className='h-50 '>
 
-export default ProductCard;
+        <img src={product.img} alt="" />
+
+        <p className='text-black'>{product.price}</p>
+       <h2 className='font-extrabold'>{product.name}</h2>
+       <p className='text-gray-400'>{product.brand}</p>
+
+
+    </div>
+    
+    </>
+  )
+}
+
+export default ProductCard
