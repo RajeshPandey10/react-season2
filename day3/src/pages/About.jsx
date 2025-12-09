@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Button from '../componetns/common/Button'
 
 const About = () => {
@@ -40,8 +40,9 @@ const About = () => {
     </div>
     {/* Buttons Section */}
     <div className="flex flex-col sm:flex-row items-center gap-4 mt-8" data-aos="fade-up">
-      <Button name="book a demo" className=" hover:bg-amber-300 "/>
-     <Button name="contact us"/>
+      <Button text="get more" color="text-white bg-green-400" />
+      <Button  text="learn more" color=" text-red-900"/>
+      <Button  text="call us" color= "text-red-900"/>
     </div>
   </div>
 </section>

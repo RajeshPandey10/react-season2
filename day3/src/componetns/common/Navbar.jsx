@@ -19,8 +19,8 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-          <Button name="Login" className="border bg-amber-500" />
-           <Button name="Register" className="bg-blue-500"/>
+          {/* <Button name="Login" className="border bg-amber-500" />
+           <Button name="Register" className="bg-blue-500"/> */}
             
         </ul>
       </nav>

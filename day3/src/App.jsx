@@ -3,6 +3,7 @@ import Header from "./componetns/common/Header";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Footer from "./componetns/common/Footer";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/product" element={<Products />} />
         </Routes>
         <Footer/>
       </BrowserRouter>

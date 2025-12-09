@@ -32,7 +32,7 @@ const Hero = () => {
           underwriting to claims processing, our intelligent system streamlines
           and enhances every aspect of your insurance operations.
         </h2>
-       <Button name="Get Started" className="bg-sky-800"/>
+     
       </div>
     </>
   );
