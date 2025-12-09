@@ -1,5 +1,6 @@
 
 import Button from '../componetns/common/Button'
+import ChildreanProps from '../componetns/common/ChildreanProps'
 
 const About = () => {
   return (
@@ -44,6 +45,13 @@ const About = () => {
       <Button  text="learn more" color=" text-red-900"/>
       <Button  text="call us" color= "text-red-900"/>
     </div>
+
+    <ChildreanProps>
+
+        this is children props
+
+
+    </ChildreanProps>
   </div>
 </section>
 
